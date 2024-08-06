@@ -1,0 +1,1 @@
+A web-page with a screenshots (playwright) puzzle to show whole flow-picture of project

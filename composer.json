@@ -1,0 +1,20 @@
+{
+  "name": "alexander-a2/puzzle-laravel",
+  "description": "A web-page with a screenshots (playwright) puzzle to show whole flow-picture of project",
+  "type": "library",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexanderA2\\PuzzleLaravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AlexanderA2\\PuzzleLaravel\\PuzzleServiceProvider"
+      ]
+    }
+  }
+}
